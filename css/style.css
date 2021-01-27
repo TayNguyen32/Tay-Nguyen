@@ -1,7 +1,20 @@
 body {
+  /*default color*/
   background: lightcyan;
 
   font-family: Arial, Helvetica, sans-serif;
 
   text-align: center;
+}
+
+.bg0 {
+  background: red;
+}
+
+.bg1 {
+  background: greenyellow;
+}
+
+.bg2 {
+  background: blueviolet;
 }
