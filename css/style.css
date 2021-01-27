@@ -8,13 +8,22 @@ body {
 }
 
 .bg0 {
-  background: red;
+  background: #1174b8;
+  background: -webkit-linear-gradient(top left, #1174b8, #119472);
+  background: -moz-linear-gradient(top left, #1174b8, #119472);
+  background: linear-gradient(to bottom right, #1174b8, #119472);
 }
 
 .bg1 {
-  background: greenyellow;
+  background: #24211d;
+  background: -webkit-linear-gradient(top left, #24211d, #0a4536);
+  background: -moz-linear-gradient(top left, #24211d, #0a4536);
+  background: linear-gradient(to bottom right, #24211d, #0a4536);
 }
 
 .bg2 {
-  background: blueviolet;
+  background: #b7b0a5;
+  background: -webkit-linear-gradient(top left, #b7b0a5, #2f2d54);
+  background: -moz-linear-gradient(top left, #b7b0a5, #2f2d54);
+  background: linear-gradient(to bottom right, #b7b0a5, #2f2d54);
 }
