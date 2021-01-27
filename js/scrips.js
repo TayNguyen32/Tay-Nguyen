@@ -1,4 +1,4 @@
-/* console.log("ok"); */
+console.log("ok");
 
 // Store Background Classes
 const backgrounds = ["bg0", "bg1", "bg2"];
