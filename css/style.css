@@ -1,6 +1,6 @@
 body {
   /*default color*/
-  background: EEEEEE;
+  background: #eeeeee;
 
   font-family: Arial, Helvetica, sans-serif;
 
@@ -33,9 +33,36 @@ body {
 }
 
 .header img {
-  position: fixed;
-  left: 10px;
+  position: relative;
   width: 233px;
   height: 49px;
+  left: 60px;
   padding-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "section-1 section-1 section-1 section-1"
+    "section-2 section-2 section-2 section-2"
+    "section-3 section-3 section-3 section-3";
+}
+.section-1 {
+  grid-area: section-1;
+  background: #eeeeee;
+}
+.section-2 {
+  grid-area: section-2;
+}
+.section-3 {
+  grid-area: section-3;
+}
+
+.section-1 img {
+  position: relative;
+  width: 190px;
+  height: 184px;
 }
