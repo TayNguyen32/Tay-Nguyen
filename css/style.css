@@ -4,7 +4,6 @@
 body {
   /*default color*/
   background: #eeeeee;
-
   text-align: center;
 }
 
@@ -73,9 +72,12 @@ p {
 
 .section-1 {
   height: 256px;
+  display: flex;
+  justify-content: center;
 }
 
 .section-1 img {
+  display: flex;
   position: relative;
   width: 190px;
   height: 184px;
