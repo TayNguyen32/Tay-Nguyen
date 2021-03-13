@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 
 body {
   /*default color*/
@@ -27,9 +27,17 @@ h2 {
   text-align: left;
   padding-bottom: 15px;
   text-decoration: solid underline red 4px;
-  text-underline-offset: 10px;
+  text-underline-offset: 15px;
 }
 
+p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 220%;
+  color: #eeeeee;
+}
 /* Style the header */
 .header {
   overflow: hidden;
@@ -78,4 +86,65 @@ h2 {
   height: 454px;
   padding: 50px;
   background: #303841;
+  text-align: left;
+}
+
+.section-2 img {
+  width: 258px;
+  border: 8px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.section-content {
+  padding-top: 50px;
+  text-align: left;
+  float: left;
+  display: grid;
+  grid-template-rows: 0.5fr 200px;
+  grid-template-columns: 0.4fr 10% 1fr;
+  gap: 0px 80px;
+  grid-template-areas:
+    "picture area-1 area-1"
+    "picture area-2 area-2"
+    "picture area-3 area-3";
+}
+.picture {
+  grid-area: picture;
+}
+.area-1 {
+  grid-area: area-1;
+  margin-top: -10px;
+}
+.area-2 {
+  grid-area: area-2;
+  max-width: 550px;
+  margin-top: -10px;
+}
+.area-3 {
+  grid-area: area-3;
+  margin-top: -90px;
+}
+
+/* button with Link */
+a.button {
+  display: inline-block;
+  background: #eeeeee;
+  border: 2px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 6px 15px;
+  color: #303841;
+}
+a.button:hover {
+  opacity: 50%;
+  transition-timing-function: ease-in;
+  transition-duration: 0.1s;
 }
