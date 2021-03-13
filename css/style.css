@@ -1,10 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
+
 body {
   /*default color*/
   background: #eeeeee;
 
-  font-family: Arial, Helvetica, sans-serif;
-
   text-align: center;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #eeeeee;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #eeeeee;
+  text-align: left;
+  padding-bottom: 15px;
+  text-decoration: solid underline red 4px;
+  text-underline-offset: 10px;
 }
 
 /* Style the header */
@@ -40,29 +63,19 @@ body {
   padding-top: 20px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "section-1 section-1 section-1 section-1"
-    "section-2 section-2 section-2 section-2"
-    "section-3 section-3 section-3 section-3";
-}
 .section-1 {
-  grid-area: section-1;
-  background: #eeeeee;
-}
-.section-2 {
-  grid-area: section-2;
-}
-.section-3 {
-  grid-area: section-3;
+  height: 256px;
 }
 
 .section-1 img {
   position: relative;
   width: 190px;
   height: 184px;
+  padding-top: 30px;
+}
+
+.section-2 {
+  height: 454px;
+  padding: 50px;
+  background: #303841;
 }
