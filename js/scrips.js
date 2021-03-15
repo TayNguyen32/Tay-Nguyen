@@ -14,6 +14,10 @@ let pageBackground = document.querySelector("body");
 pageBackground.className = backgrounds[numRand];
 
 // portfolio setup
-const portfolio = document.getElementsByClassName("portfolio");
+const portfolio = document.querySelector("#portfolio");
 
-lightGallery(portfolio);
+lightGallery(portfolio, {
+  selector: "a",
+  mode: "lg-slide-skew-cross",
+  download: false
+});
