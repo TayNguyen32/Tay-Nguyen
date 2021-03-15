@@ -12,3 +12,8 @@ let pageBackground = document.querySelector("body");
 
 // Set class name from stored values
 pageBackground.className = backgrounds[numRand];
+
+// portfolio setup
+const portfolio = document.getElementsByClassName("portfolio");
+
+lightGallery(portfolio);
