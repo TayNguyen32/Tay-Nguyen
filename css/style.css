@@ -4,7 +4,6 @@
 body {
   /*default color*/
   background: #eeeeee;
-  text-align: center;
 }
 
 h1 {
@@ -24,7 +23,6 @@ h2 {
   line-height: 26px;
   color: #eeeeee;
   text-align: left;
-  padding-bottom: 15px;
   text-decoration: solid underline red 4px;
   text-underline-offset: 15px;
 }
@@ -63,15 +61,14 @@ p {
 }
 
 .header img {
-  position: relative;
+  float: left;
   width: 233px;
   height: 49px;
-  left: 60px;
+  margin-left: 20px;
   padding-top: 20px;
 }
 
 .section-1 {
-  height: 256px;
   display: flex;
   justify-content: center;
 }
@@ -85,46 +82,30 @@ p {
 }
 
 .section-2 {
-  height: 454px;
-  padding: 50px;
+  padding: 40px;
+  width: 100%;
   background: #303841;
-  text-align: left;
 }
 
 .section-2 img {
+  margin-top: 30px;
   width: 258px;
+  height: 256px;
   border: 8px solid #eeeeee;
   box-sizing: border-box;
 }
 
-.section-content {
-  padding-top: 50px;
-  text-align: left;
-  float: left;
-  display: grid;
-  grid-template-rows: 0.5fr 200px;
-  grid-template-columns: 0.4fr 10% 1fr;
-  gap: 0px 80px;
-  grid-template-areas:
-    "picture area-1 area-1"
-    "picture area-2 area-2"
-    "picture area-3 area-3";
+.section-2-content {
+  display: inline-block;
 }
-.picture {
-  grid-area: picture;
-}
-.area-1 {
-  grid-area: area-1;
-  margin-top: -10px;
-}
-.area-2 {
-  grid-area: area-2;
+
+.section-2 p {
   max-width: 550px;
-  margin-top: -10px;
 }
-.area-3 {
-  grid-area: area-3;
-  margin-top: -90px;
+
+.section-2 a {
+  margin-top: 15px;
+  margin-right: 20px;
 }
 
 /* button with Link */
@@ -149,4 +130,11 @@ a.button:hover {
   opacity: 50%;
   transition-timing-function: ease-in;
   transition-duration: 0.1s;
+}
+
+.section-3 {
+  padding: 40px;
+  width: 100%;
+  background: #eeeeee;
+  text-align: left;
 }
