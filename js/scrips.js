@@ -23,5 +23,7 @@ lightGallery(portfolio, {
   download: false,
   cssEasing: "ease",
   startClass: "lg-start-zoom",
-  subHtmlSelectorRelative: true
+  subHtmlSelectorRelative: true,
+  zoom: true,
+  scale: 0.5
 });
