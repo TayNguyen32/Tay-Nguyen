@@ -199,6 +199,7 @@ a.button:hover {
   border: 3px solid #3a4750;
   margin-right: 35px;
   margin-bottom: 35px;
+  margin-bottom: 35px;
   transition: 0.7s;
 }
 
@@ -208,7 +209,7 @@ a.button:hover {
   opacity: 50%;
   transition-timing-function: ease-in;
   transition-duration: 0.1s;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .caption {
