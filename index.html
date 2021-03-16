@@ -93,12 +93,20 @@
 
       <div id="portfolio">
 
-      <a href="img/portfolio-img-5.jpg">
+      <a href="img/portfolio-img-5.jpg" data-sub-html=".caption">
       <img src="img/portfolio-thumbnail-5.jpg" alt="thumbnail">
+      <div class="caption" style="display:none">
+        <h4>"Chosen" custom card game </h4>
+        <p>Overview: created my own game card game based off characters from the huge MOBA "League of Legends" while mixing it with core gameplay from various social deduction games. Core elements such as card display art and instructio manual were all vectorized then put into mocked-up printable versions.</p>
+      </div>
       </a>
 
-      <a href="img/portfolio-img-5.jpg">
-        <img src="img/portfolio-thumbnail-5.jpg" alt="thumbnail">
+      <a href="img/portfolio-img-2.jpg" data-sub-html=".caption">
+        <img src="img/portfolio-thumbnail-2.jpg" alt="thumbnail">
+        <div class="caption" style="display:none">
+          <h4>Dark Knight Rises Figure - ground book cover</h4>
+          <p>Overview: I had created a custom book cover based off one of my favorite movies “The Dark Knight Rises”. The objective was to use the some Adobe Creative Suite products in order to create a product that could be seen on shelves while showing that my understanding of the figure - ground concept.</p>
+        </div>
         </a>
 
         <a href="img/portfolio-img-5.jpg">
@@ -121,9 +129,15 @@
                   <img src="img/portfolio-thumbnail-5.jpg" alt="thumbnail">
                   </a>
 
-                  <a href="img/portfolio-img-5.jpg">
-                    <img src="img/portfolio-thumbnail-5.jpg" alt="thumbnail">
-                    </a>
+                  <div id="video">
+                  <a
+                  href="https://youtu.be/hgk8pGeTT5w"
+                  data-poster="img/portfolio-img-8.jpg"
+                  data-sub-html=".Tay-caption"
+                >
+                  <img src="img/portfolio-thumbnail-8.jpg" alt="Lyric-Video" />
+                </a>
+              </div>
             
       </div>
       </div>
@@ -160,7 +174,13 @@
     </form>
   </div>
 
+  <!-- JS Library Core -->
     <script src="js/lightgallery.min.js"></script>
+
+        <!-- Plugins -->
+        <script src="js/lg-video.min.js"></script>
+
+    <!-- Our Scripts -->
     <script src="/js/scrips.js"></script>
   </body>
 </html>

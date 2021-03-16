@@ -15,9 +15,13 @@ pageBackground.className = backgrounds[numRand];
 
 // portfolio setup
 const portfolio = document.querySelector("#portfolio");
+const video = document.getElementById("video");
 
 lightGallery(portfolio, {
   selector: "a",
-  mode: "lg-slide-skew-cross",
-  download: false
+  mode: "lg-slide",
+  download: false,
+  cssEasing: "ease",
+  startClass: "lg-start-zoom",
+  subHtmlSelectorRelative: true
 });
