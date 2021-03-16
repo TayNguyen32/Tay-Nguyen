@@ -78,6 +78,8 @@ p {
   top: 0px;
   background: #303841;
   float: none;
+  width: 100%;
+  text-align: center;
 }
 
 /* Style the header links */
@@ -94,10 +96,9 @@ p {
 }
 
 .header img {
-  float: left;
   width: 233px;
   height: 49px;
-  margin-left: 20px;
+  margin-left: 120px;
   padding-top: 20px;
 }
 
