@@ -78,14 +78,13 @@ p {
   top: 0px;
   background: #303841;
   float: none;
-  width: 100%;
   text-align: center;
 }
 
 /* Style the header links */
 .header a {
   float: right;
-  padding: 30px 30px 30px 0px;
+  margin: 30px 30px 30px 0px;
   text-decoration: none;
 }
 
@@ -124,7 +123,6 @@ p {
 
 .section-2 img {
   margin-top: 30px;
-  width: 258px;
   height: 256px;
   border: 8px solid #eeeeee;
   box-sizing: border-box;
@@ -135,7 +133,6 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  min-height: 320px;
 }
 
 .section-2 p {
@@ -148,7 +145,7 @@ p {
 }
 
 .content-bio {
-  padding: 30px 0px 30px 70px;
+  margin: 30px 70px 30px 70px;
   display: inline-block;
   flex-direction: row;
   flex-wrap: wrap;
@@ -226,4 +223,10 @@ a.button:hover {
 
 form {
   margin-top: 40px;
+}
+
+@media only screen and (max-width: 940px) {
+  .content-bio {
+    margin: 0px 20px 0px 0px;
+  }
 }
