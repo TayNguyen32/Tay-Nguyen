@@ -73,9 +73,6 @@ p {
   overflow: hidden;
   position: relative;
   width: 100%;
-  min-height: 84px;
-  left: 0px;
-  top: 0px;
   background: #303841;
   float: none;
   text-align: center;
@@ -84,7 +81,8 @@ p {
 /* Style the header links */
 .header a {
   float: right;
-  margin: 30px 30px 30px 0px;
+  margin: 30px 30px 20px 0px;
+  padding-top: 2px;
   text-decoration: none;
 }
 
@@ -98,7 +96,7 @@ p {
   width: 233px;
   height: 49px;
   margin-left: 120px;
-  padding-top: 20px;
+  padding-top: 23px;
 }
 
 .section-1 {
@@ -225,8 +223,27 @@ form {
   margin-top: 40px;
 }
 
+@media only screen and (max-width: 485px) {
+  .header img {
+    margin-left: 0px;
+    width: 233px;
+    height: 49px;
+    padding-top: 10px;
+  }
+  .header a {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 940px) {
   .content-bio {
+    padding-right: 40px;
     margin: 0px 20px 0px 0px;
+  }
+  .section-2 img {
+    margin-top: 30px;
+    height: 220px;
+    border: 8px solid #eeeeee;
+    box-sizing: border-box;
   }
 }
