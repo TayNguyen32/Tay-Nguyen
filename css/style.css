@@ -290,6 +290,10 @@ textarea {
   color: #303841;
 }
 
+.thanks-content {
+  align-content: center;
+}
+
 @media only screen and (max-width: 485px) {
   #portfolio img {
     max-width: 75%;
