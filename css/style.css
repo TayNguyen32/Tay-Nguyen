@@ -60,6 +60,17 @@ h4 {
   text-align: center;
 }
 
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #303841;
+  text-align: center;
+}
+
 p {
   font-family: 'Lato', sans-serif;
   font-style: normal;
@@ -291,7 +302,8 @@ textarea {
 }
 
 .thanks-content {
-  text-align: center; 
+  text-align: center;
+  margin: 30px;
 }
 
 @media only screen and (max-width: 485px) {
