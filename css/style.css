@@ -218,6 +218,7 @@ a.button:hover {
 }
 
 .zoomed p {
+  letter-spacing: 0.5px;
   color: #eeeeee;
 }
 
