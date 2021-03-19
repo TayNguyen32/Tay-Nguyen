@@ -291,7 +291,7 @@ textarea {
 }
 
 .thanks-content {
-  align-content: center;
+  text-align: center; 
 }
 
 @media only screen and (max-width: 485px) {
