@@ -38,6 +38,8 @@
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#ffffff" />
 
+  <script src="https://kit.fontawesome.com/40bcdfa8ac.js" crossorigin="anonymous"></script>
+
     <link
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
@@ -187,33 +189,41 @@
 
         
 <div class="section-4">
-    <h2>CONTACT FORM</h2>
+    <h2>CONTACT</h2>
+
+    <div class="contact-paragraph">
+      <p> For inquiries or further questions, use form below </p>
+    </div>
+
+    <div clas=contact-form>
     <form
       name="My Contact Form"
       method="POST"
       data-netlify="true"
       action="/Thanks.html"
     >
-      <p>
-        <label>Name: <input type="text" name="name" required /></label>
-      </p>
 
-      <p>
-        <label>Your Email: <input type="email" name="email" required /></label>
-      </p>
+    <div class="form-group">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+      </div>
 
-      <p>
-        <label>Message: <textarea name="message"></textarea></label>
-      </p>
+      <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+      </div>
+
+      <textarea class="form-control" rows="6" placeholder="MESSAGE" name="message" required></textarea>
+
+      <button id="submit" type="submit" value="SEND">
+          <div class="send-button"> SEND </div>
+  
+        </button>
 
       <p>
         <div data-netlify-recaptcha="true"></div>
       </p>
 
-      <p>
-        <button type="submit">Send</button>
-      </p>
     </form>
+  </div>
   </div>
 
   <!-- JS Library Core -->

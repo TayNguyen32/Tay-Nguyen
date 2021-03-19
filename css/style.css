@@ -6,7 +6,7 @@ body {
   /*default color*/
   justify-content: center;
   background: #eeeeee;
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -50,7 +50,7 @@ h3 {
 }
 
 h4 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -61,7 +61,7 @@ h4 {
 }
 
 p {
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -158,7 +158,7 @@ a.button {
   border: 2px solid #eeeeee;
   box-sizing: border-box;
   border-radius: 5px;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -230,12 +230,77 @@ a.button:hover {
 
 form {
   margin-top: 40px;
+  position: relative;
+  max-width: 400px;
+}
+
+.contact-form {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-paragraph {
+  max-width: 380px;
+}
+
+textarea {
+  display: flex;
+  max-width: 450px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-control,
+textarea {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 5px;
+  width: 100%;
+  background-color: #eeeeee;
+  color: #303841;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  opacity: 50%;
+  transition-timing-function: ease-in;
+  transition-duration: 0.1s;
+}
+
+.send-button {
+  display: block;
+  background: #eeeeee;
+  transition: all 0.2s ease-in-out;
+
+  display: inline-block;
+  background: #eeeeee;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #303841;
 }
 
 @media only screen and (max-width: 485px) {
   #portfolio img {
     max-width: 75%;
   }
+
+  form {
+    max-width: 215px;
+  }
+
+  .contact-paragraph {
+    max-width: 215px;
 }
 
 @media only screen and (max-width: 485px) {
