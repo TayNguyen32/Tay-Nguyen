@@ -302,15 +302,11 @@ textarea {
 }
 
 .thanks-content {
-  display:flex; 
-  justify-content: center;
   text-align: center;
   margin: 30px;
 }
 
 .content-404 {
-  display:flex; 
-  justify-content: center;
   text-align: center;
   margin: 30px;
 }
