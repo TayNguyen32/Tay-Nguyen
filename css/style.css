@@ -301,14 +301,38 @@ textarea {
   color: #303841;
 }
 
+.thanks-header {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: #303841;
+  float: none;
+  text-align: center;
+}
+
 .thanks-content {
   text-align: center;
   margin: 30px;
 }
 
+.header-404{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: #303841;
+  float: none;
+  text-align: center;
+}
+
 .content-404 {
   text-align: center;
   margin: 30px;
+}
+
+.content-404 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 485px) {
