@@ -354,8 +354,8 @@ textarea {
 
 a.button-pages {
   display: inline-block;
-  background: #eeeeee;
-  border: 2px solid #eeeeee;
+  background: #303841;
+  border: 2px solid #303841;
   box-sizing: border-box;
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
@@ -367,7 +367,7 @@ a.button-pages {
   text-decoration: none;
   border-radius: 2px;
   padding: 6px 15px;
-  color: #303841;
+  color: #EEEEEE;
 }
 a.button-pages:hover {
   opacity: 50%;
