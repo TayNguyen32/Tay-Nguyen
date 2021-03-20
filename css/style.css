@@ -302,6 +302,15 @@ textarea {
 }
 
 .thanks-content {
+  display:flex; 
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+}
+
+.content-404 {
+  display:flex; 
+  justify-content: center;
   text-align: center;
   margin: 30px;
 }
@@ -331,7 +340,7 @@ textarea {
   }
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 942px) {
   .content-bio {
     padding-right: 40px;
     margin: 0px 20px 0px 0px;
