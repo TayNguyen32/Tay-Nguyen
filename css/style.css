@@ -310,6 +310,12 @@ textarea {
   text-align: center;
 }
 
+.thanks-header img {
+  width: 233px;
+  height: 49px;
+  padding-top: 23px;
+}
+
 .thanks-content {
   text-align: center;
   margin: 30px;
@@ -322,6 +328,12 @@ textarea {
   background: #303841;
   float: none;
   text-align: center;
+}
+
+.header-404 img{
+  width: 233px;
+  height: 49px;
+  padding-top: 23px;
 }
 
 .content-404 {
