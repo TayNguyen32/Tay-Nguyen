@@ -208,7 +208,7 @@ a.button:hover {
 }
 
 form {
-  margin-top: 25px;
+  margin-top: 15px;
   position: relative;
   max-width: 400px;
 }
@@ -232,15 +232,25 @@ textarea {
 .form-control,
 textarea {
   position: relative;
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  padding-left: 5px;
+  font: normal 300 16px/220% "Lato", sans-serif;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 2px solid #eeeeee;
   width: 100%;
-  background-color: #eeeeee;
-  color: #303841;
+  color: #eeeeee;
   letter-spacing: 1px;
+  background: none;
+}
+
+.form-control::placeholder {
+  color: #eeeeee;
+}
+
+.section-4 button {
+  background: red;
 }
 
 .btn-primary:hover,
@@ -249,20 +259,6 @@ textarea {
   opacity: 50%;
   transition-timing-function: ease-in;
   transition-duration: 0.1s;
-}
-
-.send-button {
-  background: #eeeeee;
-  transition: all 0.2s ease-in-out;
-  display: inline-block;
-  background: #eeeeee;
-  box-sizing: border-box;
-  border-radius: 5px;
-  font: normal 700 14px "Lato", sans-serif;
-  text-align: center;
-  padding-top: -10px;
-  text-decoration: none;
-  color: #303841;
 }
 
 /* footer-content */
